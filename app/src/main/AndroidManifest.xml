@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_pigeon_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_pigeon_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".View.Conir"
+            android:exported="false" />
+        <activity
+            android:name=".View.Calificar"
+            android:exported="false" />
+        <activity
+            android:name=".View.Consul"
+            android:exported="false" />
+        <activity
+            android:name=".View.Seguir"
+            android:exported="false" />
+        <activity
+            android:name=".View.Sociedad"
+            android:exported="false" />
+        <activity
+            android:name=".View.Economia"
+            android:exported="false" />
+        <activity
+            android:name=".View.Ciencia"
+            android:exported="false" />
+        <activity
+            android:name=".View.Entretenimiento"
+            android:exported="false" />
+        <activity
+            android:name=".View.Deportes"
+            android:exported="false" />
+        <activity
+            android:name=".View.Peru"
+            android:exported="false" />
+        <activity
+            android:name=".View.Ecuador"
+            android:exported="false" />
+        <activity
+            android:name=".View.Mexico"
+            android:exported="false" />
+        <activity
+            android:name=".View.Colombia"
+            android:exported="false" />
+        <activity
+            android:name=".View.foto"
+            android:exported="false" />
+        <activity
+            android:name=".View.CrearNoticia"
+            android:exported="false" />
+        <activity
+            android:name=".View.RegistrarDatosUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".View.Infromacion"
+            android:exported="false" />
+        <activity
+            android:name=".View.BREAK"
+            android:exported="false" />
+        <activity
+            android:name=".View.SIGUE"
+            android:exported="false" />
+        <activity
+            android:name=".View.MUNDOPA"
+            android:exported="false" />
+        <activity
+            android:name=".View.MUNDOBUS"
+            android:exported="false" />
+        <activity
+            android:name=".View.MUNDO_PAISES"
+            android:exported="false" />
+        <activity
+            android:name=".View.HOMME"
+            android:exported="false" />
+        <activity
+            android:name=".View.Registrate"
+            android:exported="false" />
+        <activity
+            android:name=".View.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

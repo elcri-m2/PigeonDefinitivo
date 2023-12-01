@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F4AB"
+    android:textAlignment="center"
+    tools:context=".View.Conir">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar32"
+        android:layout_width="414dp"
+        android:layout_height="102dp"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#A3E854"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar31" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar38"
+        android:layout_width="355dp"
+        android:layout_height="396dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar32"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar31"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="#84E811"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="376dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:text="Consulta a un PIGEON para saber más acerca de su reputación o califícalo"
+        android:textColor="#F4F1F1"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottomAppBar31" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="126dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="PIGEON"
+        android:textColor="#F4F1F1"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar31" />
+
+    <EditText
+        android:id="@+id/MiUsuarioFav"
+        android:layout_width="320dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Nombre del Usuario"
+        android:inputType="text"
+        android:textColorHint="#070707"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar38"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar38"
+        app:layout_constraintTop_toTopOf="@+id/bottomAppBar38" />
+
+    <Button
+        android:id="@+id/Consultar1"
+        android:layout_width="320dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#84E811"
+        android:onClick="Consutar"
+        android:shadowRadius="10"
+        android:text="Consultar"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textColorHighlight="#4CAF50"
+        android:textColorHint="#FBF7F7"
+        android:textColorLink="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar38"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar38"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar38"
+        app:layout_constraintTop_toBottomOf="@+id/Calificar1"
+        app:layout_constraintVertical_bias="0.0"
+        app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+    <Button
+        android:id="@+id/Calificar1"
+        android:layout_width="320dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#84E811"
+        android:onClick="Calificar"
+        android:shadowRadius="10"
+        android:text="Calificar"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textColorHighlight="#4CAF50"
+        android:textColorHint="#FBF7F7"
+        android:textColorLink="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/bottomAppBar38"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/bottomAppBar38"
+        app:layout_constraintTop_toBottomOf="@+id/MiUsuarioFav"
+        app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

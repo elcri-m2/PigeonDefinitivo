@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.SIGUE">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2F4AB"
+        tools:context=".View.BREAK"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="412dp"
+            android:layout_height="404dp"
+            android:background="#FAF8F8"
+            app:layout_constraintBottom_toTopOf="@+id/ATRAS2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar27"
+            app:layout_constraintVertical_bias="0.015">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAF8F8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nombreNoticiaC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <ImageView
+                    android:id="@+id/ImagenNoticiaC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp" />
+
+                <TextView
+                    android:id="@+id/NoticiaC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/gh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Video:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/VideoC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/hjg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Link:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/LinkC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/ddvdz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pais de Origen de la Noticia:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/PaisOrigenC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/cg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tipo-Noticia:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/TipoNoticiaN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/PaisN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="........................................."
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar3"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#84E811"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar44"
+            android:layout_width="409dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#84E811"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="631dp" />
+
+        <TextView
+            android:id="@+id/sig"
+            android:layout_width="355dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="16dp"
+            android:hint="SIGUIENDO"
+            android:textColor="#F4F1F1"
+            android:textColorHint="#F3EDED"
+            android:textSize="34sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar27"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="Seguir"
+            app:backgroundTint="#FFFFFF"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="112dp"
+            android:layout_height="27dp"
+            android:text="SEGUIR"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar27"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar3" />
+
+        <Button
+            android:id="@+id/adelante9"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#84E811"
+            android:onClick="Adelante"
+            android:shadowRadius="10"
+            android:textAlignment="textStart"
+            android:textColor="#050505"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#090909"
+            android:textColorLink="#4CAF50"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+        <Button
+            android:id="@+id/ATRAS2"
+            android:layout_width="195dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#84E811"
+            android:onClick="Atras"
+            android:shadowRadius="10"
+            android:textAlignment="textStart"
+            android:textColor="#050505"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#090909"
+            android:textColorLink="#4CAF50"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="@+id/ATRAS2"
+            app:layout_constraintEnd_toEndOf="@+id/ATRAS2"
+            app:layout_constraintStart_toStartOf="@+id/ATRAS2"
+            app:layout_constraintTop_toTopOf="@+id/ATRAS2"
+            app:srcCompat="@mipmap/whitearrow" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="@+id/adelante9"
+            app:layout_constraintEnd_toEndOf="@+id/adelante9"
+            app:layout_constraintStart_toStartOf="@+id/adelante9"
+            app:layout_constraintTop_toTopOf="@+id/adelante9"
+            app:srcCompat="@mipmap/whitearrow" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

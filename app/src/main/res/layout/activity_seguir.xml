@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F4AB"
+    tools:context=".View.Seguir">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2F4AB"
+        tools:context=".View.Seguir">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar28"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#84E811"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sig2"
+            android:layout_width="355dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="SIGUIENDO"
+            android:textColor="#F4F1F1"
+            android:textColorHint="#F3EDED"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar29"
+            android:layout_width="361dp"
+            android:layout_height="238dp"
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar28" />
+
+        <Button
+            android:id="@+id/SE"
+            android:layout_width="281dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#84E811"
+            android:onClick="DejarDeSeguir"
+            android:shadowRadius="10"
+            android:text="DEJAR DE SEGUIR"
+            android:textAlignment="center"
+            android:textColor="#F6F5F5"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#090909"
+            android:textColorLink="#4CAF50"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar29"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar29"
+            app:layout_constraintStart_toStartOf="@+id/bottomAppBar29"
+            app:layout_constraintTop_toBottomOf="@+id/SE2"
+            app:layout_constraintVertical_bias="0.0"
+            app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+        <Button
+            android:id="@+id/SE2"
+            android:layout_width="281dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#84E811"
+            android:onClick="Seguirsi"
+            android:shadowRadius="10"
+            android:text="SEGUIR"
+            android:textAlignment="center"
+            android:textColor="#F6F5F5"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#090909"
+            android:textColorLink="#4CAF50"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar29"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/bottomAppBar29"
+            app:layout_constraintTop_toBottomOf="@+id/QuieroSeguir"
+            app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+        <EditText
+            android:id="@+id/QuieroSeguir"
+            android:layout_width="284dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="36dp"
+            android:ems="10"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:textColorHint="#221D1D"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar29"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="@+id/bottomAppBar29"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar29" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

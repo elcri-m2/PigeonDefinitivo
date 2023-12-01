@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MUNDOPA">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2F4AB"
+        tools:context=".View.BREAK"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="51dp">
+
+        <Button
+            android:id="@+id/Peru"
+            android:layout_width="139dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="#FDFBFB"
+            android:onClick="Peru"
+            android:text="Perú"
+            android:textColor="#090808"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/Ecuador"
+            android:layout_width="139dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="28dp"
+            android:backgroundTint="#FDFBFB"
+            android:onClick="Ecuador"
+            android:text="Ecuador"
+            android:textColor="#090808"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/Mexico"
+            android:layout_width="139dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="28dp"
+            android:backgroundTint="#FDFBFB"
+            android:onClick="Mexico"
+            android:text="México"
+            android:textColor="#090808"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar3"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#84E811"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <TextView
+            android:id="@+id/sig"
+            android:layout_width="355dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:hint="Busca un Pais"
+            android:textColor="#F4F1F1"
+            android:textColorHint="#F3EDED"
+            android:textSize="34sp"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar3"
+            tools:layout_editor_absoluteX="11dp" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar7"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#A3E854"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar3"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="388dp"
+            android:layout_height="71dp"
+            android:hint="Las Noticias del Mundo al Alcance de Tus Manos!"
+            android:textColorHint="#FAF0F0"
+            android:textSize="30sp"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar7"
+            tools:layout_editor_absoluteX="11dp" />
+
+        <Button
+            android:id="@+id/Colombia"
+            android:layout_width="139dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="#FDFBFB"
+            android:onClick="Colombia"
+            android:text="Colombia"
+            android:textColor="#090808"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="165dp"
+            android:layout_height="107dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar7"
+            app:srcCompat="@mipmap/colombia" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="160dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Mexico"
+            app:srcCompat="@mipmap/ecuador" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="181dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar7"
+            app:srcCompat="@mipmap/mexico" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="170dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Colombia"
+            app:srcCompat="@mipmap/peru" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

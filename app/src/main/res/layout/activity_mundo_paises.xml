@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MUNDO_PAISES">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:textAlignment="textEnd">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D2F4AB"
+            app:layout_anchor="@+id/constraintLayout"
+            app:layout_anchorGravity="center"
+            tools:context=".Tercer_Activity">
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar5"
+                android:layout_width="413dp"
+                android:layout_height="82dp"
+                android:layout_gravity="bottom"
+                app:backgroundTint="#A3E854"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bottomAppBar" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="365dp"
+                android:layout_height="74dp"
+                android:hint="Conoce Acerca de las Noticas del Mundo y Más!"
+                android:textColorHint="#FAF5F5"
+                android:textSize="30sp"
+                app:layout_constraintTop_toTopOf="@+id/bottomAppBar5"
+                tools:layout_editor_absoluteX="20dp" />
+
+            <Button
+                android:id="@+id/buscarPais"
+                android:layout_width="411dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="36dp"
+                android:backgroundTint="@color/white"
+                android:hint="Busca Un Pais"
+                android:onClick="MundoHoy"
+                android:shadowRadius="10"
+                android:textAlignment="textStart"
+                android:textColor="#050505"
+                android:textColorHighlight="#4CAF50"
+                android:textColorHint="#090909"
+                android:textColorLink="#4CAF50"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.518"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bottomAppBar5"
+                app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+            <Button
+                android:id="@+id/NEWS"
+                android:layout_width="411dp"
+                android:layout_height="300dp"
+                android:backgroundTint="@color/white"
+                android:hint="El Mundo Hoy"
+                android:onClick="BuscaUn"
+                android:shadowRadius="10"
+                android:textAlignment="textStart"
+                android:textColor="#050505"
+                android:textColorHighlight="#4CAF50"
+                android:textColorHint="#090909"
+                android:textColorLink="#4CAF50"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/buscarPais"
+                app:layout_constraintVertical_bias="0.396"
+                app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar"
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:backgroundTint="#84E811"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="124dp"
+                android:layout_height="59dp"
+                android:hint="MUNDO"
+                android:textColor="#F4F1F1"
+                android:textColorHint="#F8F0F0"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar"
+                app:layout_constraintEnd_toEndOf="@+id/bottomAppBar"
+                app:layout_constraintHorizontal_bias="0.09"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bottomAppBar"
+                app:layout_constraintVertical_bias="0.619" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

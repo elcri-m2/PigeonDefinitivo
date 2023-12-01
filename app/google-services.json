@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424078760911",
+    "project_id": "mipigeon-ad3b8",
+    "storage_bucket": "mipigeon-ad3b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424078760911:android:7bcf72be3f179c60a510ba",
+        "android_client_info": {
+          "package_name": "com.example.mipigeon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZInG0pPEr04dc-o5t3gf1Aan1t64xod0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424078760911:android:06575b1f36f536f9a510ba",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZInG0pPEr04dc-o5t3gf1Aan1t64xod0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

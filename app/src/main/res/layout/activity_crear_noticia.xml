@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F4AB"
+    tools:context=".View.CrearNoticia">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2F4AB"
+        tools:context=".View.CrearNoticia">
+
+        <ScrollView
+            android:layout_width="359dp"
+            android:layout_height="389dp"
+            android:layout_marginTop="12dp"
+            android:background="#FFFDFD"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFCFC"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/NombreNoticia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nombre de la NOTICIA"
+                    android:inputType="text"
+                    android:textColorHint="#020202"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="100dp"
+                    android:layout_height="29dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Contenido"
+                    android:textColor="#050505"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Contenido"
+                    android:layout_width="341dp"
+                    android:layout_height="188dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine" />
+
+                <EditText
+                    android:id="@+id/Link"
+                    android:layout_width="220dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="Link"
+                    android:inputType="text"
+                    android:textColorHint="#090808" />
+
+                <EditText
+                    android:id="@+id/Imagen"
+                    android:layout_width="221dp"
+                    android:layout_height="41dp"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:hint="URL de la imagen"
+                    android:inputType="text"
+                    android:textColorHint="#0B0A0A" />
+
+                <EditText
+                    android:id="@+id/Video"
+                    android:layout_width="226dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:hint="URL del Video"
+                    android:inputType="text"
+                    android:textColorHint="#0B0A0A" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="319dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Seleccione el PAÍS"
+                    android:textColor="#050505"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/Paisss"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Seleccione el Tipo de Noticia"
+                    android:textColor="#050505"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/TipoNoticia"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:backgroundTint="#A3E854"
+                    android:onClick="Crear"
+                    android:text="Crear Noticia "
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="430dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#84E811"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="126dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="16dp"
+            android:text="PIGEON"
+            android:textColor="#F4F1F1"
+            android:textSize="34sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar4"
+            android:layout_width="416dp"
+            android:layout_height="57dp"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#A3E854"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar"
+            tools:layout_editor_absoluteX="-5dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="324dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:hint="Crea Una Noticia!"
+            android:textColorHint="#FAF5F5"
+            android:textSize="34sp"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar4"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

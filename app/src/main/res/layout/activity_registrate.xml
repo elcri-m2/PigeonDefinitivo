@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Registrate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8BC34A"
+        android:backgroundTint="#A8DC6C"
+        tools:context=".Tercer_Activity"
+        tools:layout_editor_absoluteX="-188dp"
+        tools:layout_editor_absoluteY="43dp">
+
+        <EditText
+            android:id="@+id/contrasenaB"
+            android:layout_width="350dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="20dp"
+            android:background="#FAF1F1"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/correoB" />
+
+        <Button
+            android:id="@+id/NEWS"
+            android:layout_width="198dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#589512"
+            android:drawableTint="#00000000"
+            android:foregroundTint="#000000"
+            android:onClick="Registrar"
+            android:text="REGISTRAR"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#4CAF50"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contrasenaB" />
+
+        <TextView
+            android:id="@+id/REGISTRATE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="109dp"
+            android:text="REGISTRATE"
+            android:textColor="#FAF6F6"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+        <EditText
+            android:id="@+id/correoB"
+            android:layout_width="350dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="64dp"
+            android:background="#F6F2F2"
+            android:ems="10"
+            android:hint="Correo Electronico"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/REGISTRATE" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="233dp"
+            android:layout_height="207dp"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="89dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/logoadaptado" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

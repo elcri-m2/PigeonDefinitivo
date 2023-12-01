@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F4AB"
+    tools:context=".View.foto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D2F4AB"
+        tools:context=".View.foto">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar17"
+            android:layout_width="370dp"
+            android:layout_height="298dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="92dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datos2" />
+
+        <TextView
+            android:id="@+id/n"
+            android:layout_width="325dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="52dp"
+            android:text="Añade la URL de una imagen en el siguiente campo:"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar17"
+            app:layout_constraintStart_toStartOf="@+id/bottomAppBar17"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar17" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/datos2"
+            android:layout_width="411dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#A3E854"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.383"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar16" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="376dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:hint="Añade una Foto a Tu Perfil"
+            android:textColorHint="#FDF9F9"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="@+id/datos"
+            app:layout_constraintHorizontal_bias="0.29"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar16"
+            android:layout_width="411dp"
+            android:layout_height="71dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="4dp"
+            app:backgroundTint="#84E811"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="128dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="PIGEON"
+            android:textColor="#F6F0F0"
+            android:textColorHint="#F6F2F2"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar9"
+            app:layout_constraintHorizontal_bias="0.056"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar16" />
+
+        <EditText
+            android:id="@+id/Imagen"
+            android:layout_width="326dp"
+            android:layout_height="53dp"
+            android:ems="10"
+            android:hint="URL de la Imagen"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar17"
+            app:layout_constraintStart_toStartOf="@+id/bottomAppBar17"
+            app:layout_constraintTop_toBottomOf="@+id/n" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A3E854"
+            android:onClick="SubirFoto"
+            android:text="Añadir Imagen"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar17"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar17"
+            app:layout_constraintStart_toStartOf="@+id/bottomAppBar17"
+            app:layout_constraintTop_toBottomOf="@+id/Imagen" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

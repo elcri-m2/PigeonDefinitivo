@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Consul">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".View.Consul">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="412dp"
+            android:layout_height="393dp"
+            app:layout_constraintBottom_toTopOf="@+id/ATRAS3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar15"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="415dp"
+                    android:layout_height="47dp"
+                    android:text="Datos:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Correo:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Genero:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/generoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Pais:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/pais"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:text="Usuario:"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tipoUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="415dp"
+                    android:layout_height="47dp"
+                    android:text="Comentarios"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/Comentario"
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar30"
+            android:layout_width="417dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#84E811"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ATRAS3"
+            android:layout_width="208dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#84E811"
+            android:onClick="Atras"
+            android:shadowRadius="10"
+            android:textAlignment="textStart"
+            android:textColor="#050505"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#090909"
+            android:textColorLink="#4CAF50"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+        <Button
+            android:id="@+id/adelante8"
+            android:layout_width="208dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#84E811"
+            android:onClick="Adelante"
+            android:shadowRadius="10"
+            android:textAlignment="textStart"
+            android:textColor="#050505"
+            android:textColorHighlight="#4CAF50"
+            android:textColorHint="#090909"
+            android:textColorLink="#4CAF50"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:shapeAppearance="@style/Base.Theme.MyApplication" />
+
+        <TextView
+            android:id="@+id/UsuarioNombre"
+            android:layout_width="362dp"
+            android:layout_height="50dp"
+            android:text="PIGEON"
+            android:textColor="#F4F1F1"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/bottomAppBar30"
+            app:layout_constraintEnd_toEndOf="@+id/bottomAppBar30"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bottomAppBar30"
+            app:layout_constraintVertical_bias="0.533" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar15"
+            android:layout_width="419dp"
+            android:layout_height="272dp"
+            android:layout_gravity="bottom"
+            android:background="#D2F4AB"
+            app:backgroundTint="#D2F4AB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar30" />
+
+        <TextView
+            android:id="@+id/numpu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Puntuación:"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lapuntuacion" />
+
+        <TextView
+            android:id="@+id/lapuntuacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomAppBar30" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ATRAS3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ATRAS3"
+            app:srcCompat="@mipmap/whitearrow" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/adelante8"
+            app:layout_constraintTop_toTopOf="@+id/adelante8"
+            app:srcCompat="@mipmap/whitearrow" />
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numpu"
+            app:layout_constraintVertical_bias="0.315" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
